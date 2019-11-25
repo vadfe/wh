@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     private void connect() throws MqttException{
         try {
             String url = serverURI;
-            String password =  "d5b3e103";
+            String password =  "";
             String username = "vadafe@gmail.com";
             Log.d(TAG,"Opening MQTT connection: '{}'");
             //LOGGER.info("properties: {}", mqttProperties);
